@@ -101,7 +101,7 @@ public class ProductoController {
 	}
 
 	
-	//ACTUALIZAR CARRITO
+	//ACTUALIZAR CARRITO COMPRAS
 	@PostMapping("/actualizarCarrito")
     public String actualizarCarrito(@ModelAttribute("carrito") List<Detalle> carrito, Model model) {
         // No es necesario obtener el carrito de la sesión, ya que lo estamos pasando como atributo del modelo
