@@ -25,6 +25,9 @@
 	</nav>
 	<div class="container mt-4">
 		<h1>Carrito de Compras <i class="bi bi-cart"></i></h1>
+		
+		
+
 		<hr>
 		<div class="row">
 			<div class="col-md-9">
@@ -48,18 +51,19 @@
 							<td class="text-center"><img th:src="@{img/} + ${d.imagen}" width="75"></td>
 							<td th:text="${d.descripcion}"></td>
 							<td th:text="${'S/ ' + d.precio}"></td>
-							<td><input class="form-control" style="width: 100px;" type="number"  th:value="${d.cantidad}"></td>
+							<td><input class="form-control" style="width: 100px;" type="number"  th:value="${d.cantidad}" readonly></td>
 							<td th:text="${'S/ ' + d.subtotal}"></td>
 							
 							
 							
 							
 							<td class="text-center">
-    							<a class="btn btn btn-danger" th:href="@{/eliminar/} + ${d.idProducto}">Eliminar</a>
+    							<a class="btn btn btn-danger" th:href="@{/eliminar/} + ${d.idProducto}" onclick="return confirmarEliminar();">Eliminar</a>
 							</td>
 						</tr>
 					</tbody>
 				</table>
+				
 			</div>
 			<div class="col-md-3">
 				<table class="table table-responsive table-borderless">
@@ -74,22 +78,25 @@
 							<td><input type="text" class="form-control fw-bold" th:value="${'S/ ' + total}"></td>
 						</tr>
 						<tr><td>Precio Envío:</td></tr>
-						<tr>
-							<td><input type="text" class="form-control fw-bold" th:value="@{S/ 0.00}"></td>
-						</tr>
-						<tr><td>Descuento:</td></tr>
-						<tr>
-							<td><input type="text" class="form-control fw-bold" th:value="@{S/ 0.00}"></td>
-						</tr>
+<tr>
+    <td><input type="text" id="precioEnvio" class="form-control fw-bold" th:value="@{'S/ ' + 0.0}"></td>
+</tr>
+<tr><td>Descuento:</td></tr>
+<tr>
+    <td><input type="text" id="descuento" class="form-control fw-bold" th:value="@{'S/ ' + 0.0}"></td>
+</tr>
+
 						<tr><td>Total:</td></tr>
 						<tr>
 							<td><input type="text" class="form-control fw-bold" th:value="${'S/ ' + total}"></td>
 						</tr>
 					</tbody>
+					<div th:if="${mensaje}" class="alert alert-success">
+    <p th:text="${mensaje}"></p>
+</div>
 					<tfoot class="table-secondary">
 						<tr>						
 						    <td class="text-center px-3">
-								
 						        <form th:action="@{/actualizarCarrito}" method="post">
 						            <button type="submit" class="btn btn-danger w-100">Actualizar el carrito</button>
 						        </form>
@@ -105,3 +112,10 @@
 	</div>
 </body>
 </html>
+<script>
+    function confirmarEliminar() {
+        return confirm("¿Estás seguro de que deseas eliminar este producto del carrito?");
+    }
+</script>
+
+
