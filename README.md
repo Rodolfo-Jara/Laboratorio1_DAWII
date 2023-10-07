@@ -2,12 +2,12 @@
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/4eecb311-5cff-4bc5-89e9-28e12c868cde)
 
 
-#Home donde podras agregar al carrito el producto necesario
+# Home donde podras agregar al carrito el producto necesario
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/e141325d-960b-41f1-9920-50d3decfaa68)
 
 
 
-#Carrito de compras donde veremos lo que hemos agregado al carrito  donde podemos pagar
+# Carrito de compras donde veremos lo que hemos agregado al carrito  donde podemos pagar
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/d398e192-9a72-4158-82a9-8db9b65993ee)
 
 
