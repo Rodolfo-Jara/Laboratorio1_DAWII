@@ -12,13 +12,13 @@
 
 
 
-#tambien podemos eliminar un producto del carrito pero antes necesita una confirmacion
+# tambien podemos eliminar un producto del carrito pero antes necesita una confirmacion
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/e250aed3-ab5a-4ca1-886f-9fd892a04b9b)
 
 
 
 
-#Confirmacion de la venta
+# Confirmacion de la venta
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/c35fac94-254c-4a0a-b47e-cc8572c8e145)
 
 
