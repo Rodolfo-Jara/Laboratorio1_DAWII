@@ -14,6 +14,9 @@
 
 # tambien podemos eliminar un producto del carrito pero antes necesita una confirmacion
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/e250aed3-ab5a-4ca1-886f-9fd892a04b9b)
+#ejemplo
+![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/853f22ed-32dc-4405-9498-c4a69759fad1)
+
 
 
 
