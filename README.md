@@ -19,6 +19,5 @@
 # Confirmacion de la venta
 ![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/c35fac94-254c-4a0a-b47e-cc8572c8e145)
 
-# ejemplo
-![image](https://github.com/Rodolfo-Jara/Laboratorio1_DAWII/assets/119070406/853f22ed-32dc-4405-9498-c4a69759fad1)
+
 
